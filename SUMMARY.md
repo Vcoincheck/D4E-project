@@ -4,7 +4,7 @@
 
 ## D4E project
 
-* [Intro](d4e-project/intro.md)
+* [Intro](d4e-project/intros.md)
 * [Technologies](d4e-project/technologies.md)
 * [Roadmap](d4e-project/roadmap.md)
 * [Token](d4e-project/token.md)
