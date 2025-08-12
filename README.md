@@ -1,31 +1,27 @@
-# D4E — Decentralized DAO Platform for Enterprises
+---
+icon: hand-wave
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
 
-D4E is an open-source platform designed to help real-world businesses and organizations create, manage, and participate in decentralized autonomous organizations (DAOs) with ease.  
-It supports **on-chain & off-chain voting**, **multi-signature governance**, and a **DAO directory** for discovery and collaboration.
+# Welcome
 
-## 🚀 Features
-- DAO creation & management
-- On-chain & off-chain voting mechanisms
-- Multi-sig treasury management
-- Proposal lifecycle management
-- DAO registry & exploration
-- Integration with Cardano wallets (CIP-30)
+**Welcome to the D4E Documentation**\
+This space is your guide to exploring, using, and contributing to the D4E DAO Platform.\
+Here, you’ll find clear instructions, feature overviews, and technical references to help you create and manage decentralized organizations with ease.
 
-## 📂 Structure
-- **frontend/** — Web interface (React, Tailwind, shadcn/ui)
-- **contracts/** — Smart contracts for DAO logic
-- **docs/** — Technical documentation and guides
+### Jump right in
 
-## 🛠️ Getting Started
-```bash
-# Clone the repository
-git clone https://github.com/your-org/d4e.git
-
-# Navigate to frontend
-cd d4e/frontend
-
-# Install dependencies
-npm install
-
-# Run locally
-npm run dev
+<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="image"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>App design</strong></td><td></td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/image (1).png">image (1).png</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Catalyst proposal</strong></td><td>Read our details proposal</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/ChatGPT Image Aug 10, 2025, 02_40_26 PM.png">ChatGPT Image Aug 10, 2025, 02_40_26 PM.png</a></td><td></td><td><a href="https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md">https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md</a></td></tr><tr><td><strong>Demo app</strong></td><td>Feel free to explorer our demo</td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td></td><td><a href="catalyst-proposal/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
