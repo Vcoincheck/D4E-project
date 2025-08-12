@@ -4,11 +4,11 @@
 
 ## D4E project
 
-* [Introduction](d4e-project/editor.md)
-* [Technologies](d4e-project/markdown.md)
-* [Roadmap](d4e-project/images-and-media.md)
-* [Token](d4e-project/interactive-blocks.md)
-* [User guide](d4e-project/integrations.md)
+* [Intro](d4e-project/intro.md)
+* [Technologies](d4e-project/technologies.md)
+* [Roadmap](d4e-project/roadmap.md)
+* [Token](d4e-project/token.md)
+* [User guide](d4e-project/userguide.md)
 
 ## App design
 
@@ -18,8 +18,8 @@
 
 ## Catalyst Proposal
 
-* [Problem](catalyst-proposal/quickstart.md)
-* [Solution](catalyst-proposal/publish-your-docs.md)
+* [Problem](catalyst-proposal/problem.md)
+* [Solution](catalyst-proposal/solution.md)
 * [Plan](catalyst-proposal/plan/README.md)
   * [Milestone 1](catalyst-proposal/plan/milestone-1.md)
   * [Page](catalyst-proposal/plan/page.md)
