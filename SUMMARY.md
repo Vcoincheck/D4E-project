@@ -14,7 +14,7 @@
 
 * [Mapping](app-design/mapping.md)
 * [Interface](app-design/interface.md)
-* [Brand](app-design/brand.md)
+* [Media](app-design/media.md)
 
 ## Catalyst Proposal
 
