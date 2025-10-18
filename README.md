@@ -18,7 +18,7 @@ A modular DAO management platform built with **React + TypeScript**, featuring a
 ---
 
 ## 🗂 Project Structure
-
+```
 src/
 │
 ├── app/
@@ -37,7 +37,7 @@ src/
 │ └── index.css
 │
 └── main.tsx # ReactDOM entry point
-
+```
 yaml
 Copy code
 
