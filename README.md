@@ -1,48 +1,5 @@
 # 🌐 D4E Project
 
-A modular DAO management platform built with **React + TypeScript**, featuring an **AppShell architecture**, dynamic routing, and reusable UI components (powered by [shadcn/ui](https://ui.shadcn.com)).
-
----
-
-## 🚀 Features
-
-- 🧱 **Modular structure** — clear separation between layouts, pages, and features  
-- 🧭 **AppShell layout** — shared sidebar, topbar, and footer  
-- 🧩 **Component-based architecture** — reusable UI elements under `/ui`  
-- ⚙️ **TypeScript** — strong typing for safety and scalability  
-- 💬 **Multi-language support** via `LanguageProvider`  
-- 🎨 **Theme customization** using `ThemeProvider`  
-- 🔗 **WalletConnect integration**  
-- 📦 **DAO creation wizard**, **proposal steps**, and **governance tools**
-
----
-
-## 🗂 Project Structure
-```
-src/
-│
-├── app/
-│ ├── App.tsx # Router + AppShell layout
-│ ├── layouts/ # Global shell components
-│ │ ├── AppShell.tsx
-│ │ ├── Sidebar.tsx
-│ │ ├── TopBar.tsx
-│ │ └── Footer.tsx
-│ ├── routes/ # Page routes (DAO, Dashboard, Docs, etc.)
-│ ├── features/ # Domain-specific modules (DAO, Proposal, etc.)
-│ ├── ui/ # shadcn-based reusable UI components
-│ ├── providers/ # Theme, Language, Wallet contexts
-│ ├── assets/ # Static images, logos, icons
-│ ├── hooks/ # Custom React hooks
-│ └── index.css
-│
-└── main.tsx # ReactDOM entry point
-```
----
-
-## ⚡ Getting Started
-# 🌐 D4E Project
-
 A modular DAO management platform built with React and TypeScript. The project uses an AppShell layout, dynamic routing, and reusable UI primitives (based on shadcn/ui).
 
 ## Overview
@@ -54,7 +11,7 @@ A modular DAO management platform built with React and TypeScript. The project u
 - WalletConnect integration, DAO creation wizards, proposal flows and governance tools
 
 ## Project structure (short)
-
+```
 src/
 	├─ app.tsx / main.tsx       # entry point, router and AppShell
 	├─ components/             # shared components (DAO, Proposal, etc.)
@@ -62,7 +19,7 @@ src/
 	├─ ui/                     # shadcn-based UI primitives
 	├─ styles/                 # CSS / Tailwind globals
 	└─ assets/                 # images, logos, icons
-
+```
 The repository contains more detailed folders such as `src/components/dao`, `src/components/proposals`, etc.
 
 ## Requirements
