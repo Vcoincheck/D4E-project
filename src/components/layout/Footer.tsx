@@ -1,4 +1,4 @@
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../providers/LanguageProvider";
 import { Github, Twitter } from "lucide-react";
 
 interface FooterProps {

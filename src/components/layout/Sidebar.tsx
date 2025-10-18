@@ -16,9 +16,9 @@ import {
   KeyRound,
   Share2,
 } from "lucide-react";
-import { Button } from "./ui/button";
-import { cn } from "./ui/utils";
-import { useLanguage } from "./LanguageProvider";
+import { Button } from "../ui/button";
+import { cn } from "../ui/utils";
+import { useLanguage } from "../providers/LanguageProvider";
 import { useState, useEffect } from "react";
 
 interface SidebarProps {

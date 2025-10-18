@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import { Bell, Plus, Search, Wallet, Sun, Moon, ChevronDown, FileText, Users, Globe, Menu } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Badge } from './ui/badge';
-import { WalletConnectModal } from './WalletConnectModal';
-import { useTheme } from './ThemeProvider';
-import { useLanguage, type Language } from './LanguageProvider';
+import { Button } from '../ui/button';
+import { Input } from '../ui/input';
+import { Badge } from '../ui/badge';
+import { WalletConnectModal } from '../providers/WalletConnectModal';
+import { useTheme } from '../providers/ThemeProvider';
+import { useLanguage, type Language } from '../providers/LanguageProvider';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from './ui/dropdown-menu';
+} from '../ui/dropdown-menu';
 import d4eLogo from '../assets/320f2a6e3c5e0ed6818301bbeb20e51c9cf971b9.png';
 
 interface UniversalHeaderProps {

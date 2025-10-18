@@ -1,11 +1,11 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'motion/react';
-import { Button } from './ui/button';
-import { useLanguage } from './LanguageProvider';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Badge } from './ui/badge';
-import { Input } from './ui/input';
-import { useTheme } from './ThemeProvider';
+import { Button } from '../ui/button';
+import { useLanguage } from '../providers/LanguageProvider';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Badge } from '../ui/badge';
+import { Input } from '../ui/input';
+import { useTheme } from '../providers/ThemeProvider';
 import { HomepageHeader } from './HomepageHeader';
 import { Footer } from './Footer';
 import d4eLogo from '../assets/f753e5490cdb829cbaf4e9d9d3ecff3c33045995.png';
