@@ -38,9 +38,6 @@ src/
 │
 └── main.tsx # ReactDOM entry point
 ```
-yaml
-Copy code
-
 ---
 
 ## ⚡ Getting Started
