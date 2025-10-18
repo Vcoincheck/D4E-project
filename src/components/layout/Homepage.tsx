@@ -8,7 +8,7 @@ import { Input } from '../ui/input';
 import { useTheme } from '../providers/ThemeProvider';
 import { HomepageHeader } from './HomepageHeader';
 import { Footer } from './Footer';
-import d4eLogo from '../assets/f753e5490cdb829cbaf4e9d9d3ecff3c33045995.png';
+import d4eLogo from '../../assets/f753e5490cdb829cbaf4e9d9d3ecff3c33045995.png';
 import { 
   ArrowRight, 
   Vote, 

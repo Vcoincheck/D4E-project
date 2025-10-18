@@ -33,7 +33,7 @@ import {
   Clock,
   Crown
 } from 'lucide-react';
-import exampleImage from '../assets/3860c4cd1e9cc834aa00e7ebaeadcdf965a24586.png';
+import exampleImage from '../../assets/3860c4cd1e9cc834aa00e7ebaeadcdf965a24586.png';
 
 interface CreateMultiSigProps {
   onBack: () => void;

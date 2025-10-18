@@ -3,7 +3,7 @@ import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
 import { X } from 'lucide-react';
 import { useTheme } from './ThemeProvider';
-import d4eLogo from '../assets/320f2a6e3c5e0ed6818301bbeb20e51c9cf971b9.png';
+import d4eLogo from '../../assets/320f2a6e3c5e0ed6818301bbeb20e51c9cf971b9.png';
 
 interface DemoNoticeModalProps {
   isOpen: boolean;

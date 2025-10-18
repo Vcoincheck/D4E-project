@@ -24,7 +24,7 @@ import {
   Wallet,
   Shield
 } from 'lucide-react';
-import exampleImage from '../assets/161582425ad28413cfeadb0277946b92ee07af06.png';
+import exampleImage from '../../assets/161582425ad28413cfeadb0277946b92ee07af06.png';
 
 interface TreasuryDetailsProps {
   onBack: () => void;
