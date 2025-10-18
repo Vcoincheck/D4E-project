@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
-import { Button } from './ui/button';
-import { Card, CardContent } from './ui/card';
+import { Button } from '../ui/button';
+import { Card, CardContent } from '../ui/card';
 import { MessageSquare, ExternalLink, Send, Twitter } from 'lucide-react';
 
 export function FeedbackButton() {

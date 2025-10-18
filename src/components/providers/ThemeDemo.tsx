@@ -1,10 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Badge } from './ui/badge';
-import { Avatar } from './ui/avatar';
-import { Switch } from './ui/switch';
-import { Progress } from './ui/progress';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
+import { Button } from '../ui/button';
+import { Input } from '../ui/input';
+import { Badge } from '../ui/badge';
+import { Avatar } from '../ui/avatar';
+import { Switch } from '../ui/switch';
+import { Progress } from '../ui/progress';
 import { 
   Home, FileText, Wallet, Users, Settings, Activity, Vote, 
   Bell, Search, Plus, Sun, Moon, TrendingUp, TrendingDown

@@ -1,13 +1,13 @@
 import { useState, useCallback } from 'react';
-import { Button } from './ui/button';
-import { useLanguage } from './LanguageProvider';
+import { Button } from '../ui/button';
+import { useLanguage } from '../providers/LanguageProvider';
 import { Check, ChevronLeft, ChevronRight } from 'lucide-react';
-import { cn } from './ui/utils';
-import { ProposalBasicsStep } from './proposal-steps/ProposalBasicsStep';
-import { ProposalDetailsStep } from './proposal-steps/ProposalDetailsStep';
-import { VotingConfigStep } from './proposal-steps/VotingConfigStep';
-import { AttachmentsStep } from './proposal-steps/AttachmentsStep';
-import { ProposalReviewStep } from './proposal-steps/ProposalReviewStep';
+import { cn } from '../ui/utils';
+import { ProposalBasicsStep } from './steps/ProposalBasicsStep';
+import { ProposalDetailsStep } from './steps/ProposalDetailsStep';
+import { VotingConfigStep } from './steps/VotingConfigStep';
+import { AttachmentsStep } from './steps/AttachmentsStep';
+import { ProposalReviewStep } from './steps/ProposalReviewStep';
 
 const steps = [
   { id: 'basics', title: 'Proposal Basics', description: 'Title, category, and DAO selection' },

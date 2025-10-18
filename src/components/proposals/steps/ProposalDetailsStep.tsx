@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
-import { Textarea } from '../ui/textarea';
-import { Label } from '../ui/label';
-import { Input } from '../ui/input';
-import { Button } from '../ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../ui/card';
+import { Textarea } from '../../ui/textarea';
+import { Label } from '../../ui/label';
+import { Input } from '../../ui/input';
+import { Button } from '../../ui/button';
 import { FileText, Plus, X, AlertCircle, Lightbulb } from 'lucide-react';
 
 interface ProposalDetailsStepProps {

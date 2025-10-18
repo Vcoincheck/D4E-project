@@ -1,14 +1,14 @@
 import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
-import { Input } from '../ui/input';
-import { Label } from '../ui/label';
-import { Button } from '../ui/button';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
-import { Textarea } from '../ui/textarea';
-import { Badge } from '../ui/badge';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/tooltip';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../ui/card';
+import { Input } from '../../ui/input';
+import { Label } from '../../ui/label';
+import { Button } from '../../ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../ui/select';
+import { Textarea } from '../../ui/textarea';
+import { Badge } from '../../ui/badge';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../../ui/tooltip';
 import { HelpCircle, Plus, X, Users, Mail, Copy, UserPlus, Crown, Shield } from 'lucide-react';
-import { Alert, AlertDescription } from '../ui/alert';
+import { Alert, AlertDescription } from '../../ui/alert';
 
 interface AddMembersStepProps {
   data: any;

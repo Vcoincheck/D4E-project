@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
-import { Input } from '../ui/input';
-import { Label } from '../ui/label';
-import { Button } from '../ui/button';
-import { Textarea } from '../ui/textarea';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../ui/card';
+import { Input } from '../../ui/input';
+import { Label } from '../../ui/label';
+import { Button } from '../../ui/button';
+import { Textarea } from '../../ui/textarea';
 import { Upload, FileText, Link, X, Plus, ExternalLink, Download } from 'lucide-react';
 
 interface AttachmentsStepProps {

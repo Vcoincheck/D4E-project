@@ -1,14 +1,14 @@
 import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
-import { Input } from '../ui/input';
-import { Label } from '../ui/label';
-import { RadioGroup, RadioGroupItem } from '../ui/radio-group';
-import { Checkbox } from '../ui/checkbox';
-import { Button } from '../ui/button';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/tooltip';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../../ui/card';
+import { Input } from '../../ui/input';
+import { Label } from '../../ui/label';
+import { RadioGroup, RadioGroupItem } from '../../ui/radio-group';
+import { Checkbox } from '../../ui/checkbox';
+import { Button } from '../../ui/button';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../../ui/tooltip';
 import { HelpCircle, Wallet, Shield, Plus, X, AlertTriangle, Copy } from 'lucide-react';
-import { Alert, AlertDescription } from '../ui/alert';
-import { Badge } from '../ui/badge';
+import { Alert, AlertDescription } from '../../ui/alert';
+import { Badge } from '../../ui/badge';
 
 interface TreasuryMultisigStepProps {
   data: any;
