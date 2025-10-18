@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
 import { Alert, AlertDescription } from '../ui/alert';
 import { Wallet, ExternalLink, CheckCircle2, AlertCircle, Download, Loader2 } from 'lucide-react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from '../figma/ImageWithFallback';
 import subwalletLogo from '../assets/cdf88002033f44055486f7dfa30e8e32dd79666b.png';
 import yoroiLogo from '../assets/f49a919ab3baf303a01f8bf30010184404beac29.png';
 
