@@ -1,30 +1,30 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { Sidebar } from "./components/Sidebar";
-import { useLanguage } from "./components/LanguageProvider";
-import { UniversalHeader } from "./components/UniversalHeader";
-import { Dashboard } from "./components/Dashboard";
-import { Governance } from "./components/Governance";
-import { TreasuryDetails } from "./components/TreasuryDetails";
-import { ProposalDetails } from "./components/ProposalDetails";
-import { DAOSummary } from "./components/DAOSummary";
-import { MintGovernanceToken } from "./components/MintGovernanceToken";
-import { CreateMultiSig } from "./components/CreateMultiSig";
-import { CreateDAOWizard } from "./components/CreateDAOWizard";
-import { CreateDAO } from "./components/CreateDAO";
-import { EnterpriseDAOCreator } from "./components/EnterpriseDAOCreator";
-import { CreateProposalWizard } from "./components/CreateProposalWizard";
-import { Proposals } from "./components/Proposals";
-import { Homepage } from "./components/Homepage";
+import { Sidebar } from "./components/layout/Sidebar";
+import { useLanguage } from "./components/providers/LanguageProvider";
+import { UniversalHeader } from "./components/layout/UniversalHeader";
+import { Dashboard } from "./components/dashboard/Dashboard";
+import { Governance } from "./components/governance/Governance";
+import { TreasuryDetails } from "./components/governance/TreasuryDetails";
+import { ProposalDetails } from "./components/proposals/ProposalDetails";
+import { DAOSummary } from "./components/dao/DAOSummary";
+import { MintGovernanceToken } from "./components/governance/MintGovernanceToken";
+import { CreateMultiSig } from "./components/dao/CreateMultiSig";
+import { CreateDAOWizard } from "./components/dao/CreateDAOWizard";
+import { CreateDAO } from "./components/dao/CreateDAO";
+import { EnterpriseDAOCreator } from "./components/dao/EnterpriseDAOCreator";
+import { CreateProposalWizard } from "./components/proposals/CreateProposalWizard";
+import { Proposals } from "./components/proposals/Proposals";
+import { Homepage } from "./components/layout/Homepage";
 import { Members } from "./components/Members";
-import { Documentation } from "./components/Documentation";
-import { DAODetails } from "./components/DAODetails";
-import { CrossDAOHub } from "./components/CrossDAOHub";
-import { CrossDAODetails } from "./components/CrossDAODetails";
-import { DemoNoticeModal } from "./components/DemoNoticeModal";
-import { FeedbackButton } from "./components/FeedbackButton";
-import { ThemeProvider } from "./components/ThemeProvider";
-import { LanguageProvider } from "./components/LanguageProvider";
-import { useTheme } from "./components/ThemeProvider";
+import { Documentation } from "./components/dashboard/Documentation";
+import { DAODetails } from "./components/dao/DAODetails";
+import { CrossDAOHub } from "./components/dao/CrossDAOHub";
+import { CrossDAODetails } from "./components/dao/CrossDAODetails";
+import { DemoNoticeModal } from "./components/providers/DemoNoticeModal";
+import { FeedbackButton } from "./components/providers/FeedbackButton";
+import { ThemeProvider } from "./components/providers/ThemeProvider";
+import { LanguageProvider } from "./components/providers/LanguageProvider";
+import { useTheme } from "./components/providers/ThemeProvider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/card";
 import { Badge } from "./components/ui/badge";
 import { CheckCircle, Zap, Settings, ArrowRight, Info } from "lucide-react";
@@ -500,7 +500,6 @@ function AppContent() {
             onNavigateToDocumentation={navigateToDocumentation}
             onCreateProposal={createProposal}
             onViewDAODetails={handleViewDAODetails}
-            onViewCrossDAODetails={handleViewCrossDAODetails}
           />
         </div>
         
