@@ -4,12 +4,12 @@ import { useLanguage } from '../providers/LanguageProvider';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
 import { Check, ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '../ui/utils';
-import { DAOInfoStep } from '../../wizard/steps/DAOInfoStep';
-import { GovernanceSetupStep } from '../../wizard/steps/GovernanceSetupStep';
-import { VotingMethodStep } from '../../wizard/steps/VotingMethodStep';
-import { TreasuryMultisigStep } from '../../wizard/steps/TreasuryMultisigStep';
-import { AddMembersStep } from '../../wizard/steps/AddMembersStep';
-import { ReviewConfirmStep } from '../../wizard/steps/ReviewConfirmStep';
+import { DAOInfoStep } from '../wizard/steps/DAOInfoStep';
+import { GovernanceSetupStep } from '../wizard/steps/GovernanceSetupStep';
+import { VotingMethodStep } from '../wizard/steps/VotingMethodStep';
+import { TreasuryMultisigStep } from '../wizard/steps/TreasuryMultisigStep';
+import { AddMembersStep } from '../wizard/steps/AddMembersStep';
+import { ReviewConfirmStep } from '../wizard/steps/ReviewConfirmStep';
 
 
 
