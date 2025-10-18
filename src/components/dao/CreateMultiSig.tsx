@@ -657,7 +657,7 @@ export function CreateMultiSig({ onBack }: CreateMultiSigProps) {
                     </div>
                     <Switch
                       checked={timelockEnabled}
-                      onCheckedChange={(v) => setTimelockEnabled(v)}
+                      onCheckedChange={(v: boolean) => setTimelockEnabled(v)}
                     />
                   </div>
 
@@ -888,7 +888,7 @@ export function CreateMultiSig({ onBack }: CreateMultiSigProps) {
                       </div>
                       <Select 
                         value={multisigData.requiredSignatures}
-                        onValueChange={(value) => setMultisigData(prev => ({ ...prev, requiredSignatures: value }))}
+                        onValueChange={(value: string) => setMultisigData(prev => ({ ...prev, requiredSignatures: value }))}
                       >
                         <SelectTrigger>
                           <SelectValue placeholder="Select required signatures" />
@@ -962,7 +962,7 @@ export function CreateMultiSig({ onBack }: CreateMultiSigProps) {
                         <div className="flex gap-2">
                           <Select
                             value={signer.role}
-                            onValueChange={(value) => updateSigner(index, 'role', value)}
+                            onValueChange={(value: string) => updateSigner(index, 'role', value)}
                           >
                             <SelectTrigger>
                               <SelectValue placeholder="Select role" />
