@@ -21,9 +21,9 @@ import {
   Eye
 } from 'lucide-react';
 import { useLanguage } from '../providers/LanguageProvider';
-import nightTokenLogo from '../../assets/f45b2fc73c3a8a5b34e9c23d1b875d47c63c77ca.png';
-import vietCardanoLogo from '../../assets/f9fb9d7e6a371661d7790f3c05ed29936615536c.png';
-import vtechcomLogo from '../../assets/19e3ee003cfb6111a0a470c6e8c25bdf3d23526d.png';
+import nightTokenLogo from '../../assets/midnight.png';
+import vietCardanoLogo from '../../projectlogo/assets/VCC.png';
+import vtechcomLogo from '../../projectlogo/assets/Vtechlogo.png';
 
 interface GovernanceProps {
   onMintToken?: () => void;
@@ -718,4 +718,5 @@ export function Governance({ onMintToken, onCreateMultiSig, onViewDAO, onViewTre
     </TooltipProvider>
   );
 }
+
 
