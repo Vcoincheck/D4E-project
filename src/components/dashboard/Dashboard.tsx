@@ -5,9 +5,9 @@ import { TrendingUp, TrendingDown, Users, Vote, Clock, CheckCircle2, XCircle, Al
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
 // Import DAO logos
-import vietCardanoLogo from '../../projectlogo/assets/VCC.png';
-import vtechcomLogo from '../../projectlogo/assets/Vtechlogo.png';
-import minswapLogo from '../../project/assets/Minswap.png';
+import vietCardanoLogo from '../../assets/projectlogo/VCC.png';
+import vtechcomLogo from '../../assets/projectlogo/Vtechlogo.png';
+import minswapLogo from '../../assets/projectlogo/Minswap.png';
 
 // Dummy data for treasury chart
 const treasuryData = [
@@ -532,5 +532,6 @@ export function Dashboard() {
     </div>
   );
 }
+
 
 
