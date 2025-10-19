@@ -32,9 +32,9 @@ import {
 } from 'lucide-react';
 
 // Import the uploaded DAO logos
-import vietCardanoLogo from '../assets/f9fb9d7e6a371661d7790f3c05ed29936615536c.png';
-import vtechcomLogo from '../assets/19e3ee003cfb6111a0a470c6e8c25bdf3d23526d.png';
-import minswapLogo from '../assets/b35d195e88328064b81dc903951535013af0e3b1.png';
+import vietCardanoLogo from '../assets/projectlogo/VCC.png';
+import vtechcomLogo from '../assets/projectlogo/Vtech.png';
+import minswapLogo from '../assets/projectlogo/minswap.png';
 
 interface MembersProps {
   onNavigateHome: () => void;
@@ -1213,4 +1213,5 @@ export function Members({ onNavigateHome, onNavigateToDashboard, onCreateDAO, on
     </div>
   );
 }
+
 
