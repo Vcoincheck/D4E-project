@@ -22,8 +22,8 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../providers/LanguageProvider';
 import nightTokenLogo from '../../assets/midnight.png';
-import vietCardanoLogo from '../../projectlogo/assets/VCC.png';
-import vtechcomLogo from '../../projectlogo/assets/Vtechlogo.png';
+import vietCardanoLogo from '../../assets/projectlogo/VCC.png';
+import vtechcomLogo from '../../assets/projectlogo/Vtechlogo.png';
 
 interface GovernanceProps {
   onMintToken?: () => void;
@@ -718,5 +718,6 @@ export function Governance({ onMintToken, onCreateMultiSig, onViewDAO, onViewTre
     </TooltipProvider>
   );
 }
+
 
 
