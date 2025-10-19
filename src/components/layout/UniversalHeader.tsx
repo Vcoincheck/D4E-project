@@ -12,7 +12,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '../ui/dropdown-menu';
-import d4eLogo from '../../assets/320f2a6e3c5e0ed6818301bbeb20e51c9cf971b9.png';
+import d4eLogo from '../../assets/projectlogo/D4E.png';
 
 interface UniversalHeaderProps {
   onNavigateHome?: () => void;
@@ -227,4 +227,5 @@ export function UniversalHeader({ onNavigateHome, onCreateProposal, onCreateDAO,
     </>
   );
 }
+
 
