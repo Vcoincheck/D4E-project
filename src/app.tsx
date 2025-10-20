@@ -28,8 +28,8 @@ import { useTheme } from "./components/providers/ThemeProvider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/card";
 import { Badge } from "./components/ui/badge";
 import { CheckCircle, Zap, Settings, ArrowRight, Info } from "lucide-react";
-import lightBackground from './assets/503652e07eff0d720c02d43ddb34667eb13b61ea.png';
-import darkBackground from './assets/969d3c4602d3bb567fbe5855a8a3485ce051192c.png';
+import lightBackground from './assets/theme/light.png';
+import darkBackground from './assets/theme/dark.png';
 
 type ViewMode =
   | "homepage"
